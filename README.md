@@ -1,8 +1,8 @@
-##Image-Noise-Removal-with-Fourier-Transform
+## Image-Noise-Removal-with-Fourier-Transform
 
 This project demonstrates the application of Fourier Transform techniques for image denoising using Python and the scipy.fftpack library. Fourier Transform is utilized to analyze the frequency components of an image in the frequency domain, allowing for the identification and suppression of noise.
 
-Original Image:\
+Original Image:
 
 ![image](https://github.com/YashaswiniSampath/Image-Noise-Removal-with-Fourier-Transform/assets/44898518/846c8c35-caa5-4c22-849f-8678d1ab6de0)
 
@@ -16,5 +16,5 @@ Image after denoising:\
 ![image](https://github.com/YashaswiniSampath/Image-Noise-Removal-with-Fourier-Transform/assets/44898518/f90e372d-60db-4c04-9835-c536444c336a)
 
 
-Code Explanation: This Python script demonstrates how to apply Fourier Transform techniques for image processing and denoising. It begins by loading an input image and converting it to grayscale. Using the scipy.fftpack library, the script computes the Fourier Transform of the image, shifting the frequency components to the center for clarity. The resulting Fourier spectrum is then saved as an image (fft.png) after logarithmic scaling for better visualization. To illustrate modification in the frequency domain, a small increment is added to a specific frequency component of the Fourier-transformed image. The script then performs an Inverse Fourier Transform to revert the modified frequency space back to an image format, which is subsequently saved as fft-then-ifft.png. 
+Code Explanation: This Python script demonstrates how to apply Fourier Transform techniques for image processing and denoising. It begins by loading an input image and converting it to grayscale. Using the scipy.fftpack library, the script computes the Fourier Transform of the image, shifting the frequency components to the center for clarity. The resulting Fourier spectrum is then saved as an image (fft.png) after logarithmic scaling for better visualization. To illustrate a modification in the frequency domain, a small increment is added to a specific frequency component of the Fourier-transformed image. The script then performs an Inverse Fourier Transform to revert the modified frequency space back to an image format, which is subsequently saved as fft-then-ifft.png. 
 
